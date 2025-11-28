@@ -36,7 +36,7 @@ Servidor OPC UA → Gateway Python → MQTT Broker → ESP32
 Componentes principais:
 ESP32 (MicroPython): captura e publica variáveis; subscreve flag de controle.
 Broker MQTT: garante a entrega de mensagens e sincronização de dados.
-Gateway Python + PyQt5: atua como cliente OPC UA; atualiza servidor e exibe interface gráfica.
+Gateway Python + PyQt5: atua como cliente OPC UA e cliente MQTT; atualiza servidores e exibe interface gráfica.
 
 
 
