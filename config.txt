@@ -1,0 +1,13 @@
+broker=lse.dev.br
+port=1883
+user=Thiago
+pass=123456
+credentials=0
+endpoint = opc.tcp://localhost:4840
+flag_ns:ns=1
+flag_nid:i=1000
+counter_ns:ns=1
+counter_nid:i=1001
+topic_counter = ServerOPC/counter
+topic_flag = ServerOPC/flag
+
