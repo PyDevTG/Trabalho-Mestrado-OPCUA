@@ -8,3 +8,4 @@ se flag = True Esp32 inscrementa ou decrementar um contador circular 0-9-0
 se flag=false Contador mantem o ultimo valor escrito
 
 O gateway foi desenvolvido em python juntamente com a interface de usuário que foi implementada em Pyqt5 usandoo qtdesigner
+Dados de comunicação, e configuração de variaveis pode ser feito alterando seus valores no arquivo config.txt
